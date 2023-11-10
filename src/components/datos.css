@@ -1,0 +1,30 @@
+/* Estilos para la tabla */
+table {
+    background-color: #f2f2f2; /* Cambia el color de fondo de la tabla según tus preferencias */
+    border-collapse: collapse;
+    width: 100%;
+  }
+  /* Estilos para el título de la tabla */
+h1 {
+    font-size: 24px; /* Cambia el tamaño del título según tus preferencias */
+    color: #333333; /* Cambia el color del título según tus preferencias */
+    font-weight: bold; /* Agrega negrita al título si lo deseas */
+    text-align: center; /* Centra el título en la tabla */
+    padding: 16px; /* Ajusta el espacio alrededor del título según tus preferencias */
+  }
+  
+  /* Estilos para las celdas de la tabla */
+  td, th {
+    padding: 8px; /* Ajusta el espacio entre las celdas según tus preferencias */
+    text-align: center;
+  }
+  
+  /* Estilos adicionales para resaltar las filas pares */
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .search{
+    width: 30%;
+    padding: 10px;
+    margin: 12px;
+  }
